@@ -1,0 +1,6 @@
+D:\Defelopment\ASP.net\PVB Webapp\aspPVBopdracht\bin\aspPVBopdracht.dll.config
+D:\Defelopment\ASP.net\PVB Webapp\aspPVBopdracht\bin\aspPVBopdracht.dll
+D:\Defelopment\ASP.net\PVB Webapp\aspPVBopdracht\bin\aspPVBopdracht.pdb
+D:\Defelopment\ASP.net\PVB Webapp\aspPVBopdracht\obj\Debug\aspPVBopdracht.csprojResolveAssemblyReference.cache
+D:\Defelopment\ASP.net\PVB Webapp\aspPVBopdracht\obj\Debug\aspPVBopdracht.dll
+D:\Defelopment\ASP.net\PVB Webapp\aspPVBopdracht\obj\Debug\aspPVBopdracht.pdb

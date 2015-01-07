@@ -57,6 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="default.Master" />
+    <Content Include="login.aspx" />
+    <Content Include="logoff.aspx" />
+    <Content Include="wachtwoordWijzigen.aspx" />
+    <Content Include="alleHerkansingenStudent.aspx" />
+    <Content Include="toetsAanmaken.aspx" />
+    <Content Include="herkansingAanmaken.aspx" />
+    <Content Include="alleHerkansingenDocent.aspx" />
+    <Content Include="herkansingKandidatenMailen.aspx" />
+    <Content Include="toetsAanmeldingen.aspx" />
+    <Content Include="docentAanmaken.aspx" />
+    <Content Include="herkansingAanpassen.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,14 +77,101 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\defaultMaster.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\menubg.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="default.Master.cs">
+      <DependentUpon>default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.Master.designer.cs">
+      <DependentUpon>default.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logoff.aspx.cs">
+      <DependentUpon>logoff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logoff.aspx.designer.cs">
+      <DependentUpon>logoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wachtwoordWijzigen.aspx.cs">
+      <DependentUpon>wachtwoordWijzigen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wachtwoordWijzigen.aspx.designer.cs">
+      <DependentUpon>wachtwoordWijzigen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alleHerkansingenStudent.aspx.cs">
+      <DependentUpon>alleHerkansingenStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alleHerkansingenStudent.aspx.designer.cs">
+      <DependentUpon>alleHerkansingenStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="toetsAanmaken.aspx.cs">
+      <DependentUpon>toetsAanmaken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="toetsAanmaken.aspx.designer.cs">
+      <DependentUpon>toetsAanmaken.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="herkansingAanmaken.aspx.cs">
+      <DependentUpon>herkansingAanmaken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="herkansingAanmaken.aspx.designer.cs">
+      <DependentUpon>herkansingAanmaken.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alleHerkansingenDocent.aspx.cs">
+      <DependentUpon>alleHerkansingenDocent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alleHerkansingenDocent.aspx.designer.cs">
+      <DependentUpon>alleHerkansingenDocent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="herkansingKandidatenMailen.aspx.cs">
+      <DependentUpon>herkansingKandidatenMailen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="herkansingKandidatenMailen.aspx.designer.cs">
+      <DependentUpon>herkansingKandidatenMailen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="toetsAanmeldingen.aspx.cs">
+      <DependentUpon>toetsAanmeldingen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="toetsAanmeldingen.aspx.designer.cs">
+      <DependentUpon>toetsAanmeldingen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="docentAanmaken.aspx.cs">
+      <DependentUpon>docentAanmaken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="docentAanmaken.aspx.designer.cs">
+      <DependentUpon>docentAanmaken.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="herkansingAanpassen.aspx.cs">
+      <DependentUpon>herkansingAanpassen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="herkansingAanpassen.aspx.designer.cs">
+      <DependentUpon>herkansingAanpassen.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
