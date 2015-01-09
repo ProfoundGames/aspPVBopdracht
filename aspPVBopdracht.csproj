@@ -69,6 +69,8 @@
     <Content Include="toetsAanmeldingen.aspx" />
     <Content Include="docentAanmaken.aspx" />
     <Content Include="herkansingAanpassen.aspx" />
+    <Content Include="vakAanmaken.aspx" />
+    <Content Include="herkansingSurvianceMailen.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -171,6 +173,20 @@
     </Compile>
     <Compile Include="herkansingAanpassen.aspx.designer.cs">
       <DependentUpon>herkansingAanpassen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vakAanmaken.aspx.cs">
+      <DependentUpon>vakAanmaken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vakAanmaken.aspx.designer.cs">
+      <DependentUpon>vakAanmaken.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="herkansingSurvianceMailen.aspx.cs">
+      <DependentUpon>herkansingSurvianceMailen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="herkansingSurvianceMailen.aspx.designer.cs">
+      <DependentUpon>herkansingSurvianceMailen.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -2,6 +2,12 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
+    <style type="text/css">
+        .auto-style1 {
+            height: 33px;
+        }
+    </style>
+
 </asp:Content>
 
 
@@ -11,19 +17,36 @@
         <tr>
             <td>
 
-                <table style="width: 500px; margin: 50px auto 50px auto">
+                <table style="width: 600px; margin: 50px auto 50px auto">
                     <tr>
-                        <td>Toets naam:</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                     <tr>
-                        <td>Toets Beschrijving</td>
-                        <td></td>
+                        <td>Toets titel:</td>
+                        <td>
+                            <asp:TextBox ID="TextBox1" runat="server" Width="169px"></asp:TextBox></td>
                         <td></td>
                     </tr>
-                     <tr>
-                        <td colspan="3"></td>
+                    <tr>
+                        <td class="auto-style1">Vak:</td>
+                        <td class="auto-style1">
+                            <asp:DropDownList ID="DropDownList1" Width="169px" runat="server">
+                            </asp:DropDownList>
+                        </td>
+                        <td class="auto-style1"></td>
+                    </tr>
+                    <tr>
+                        <td>Toets beschrijving:</td>
+                        <td>
+                            <asp:TextBox ID="TextBox3" runat="server" Width="169px" Height="57px" TextMode="MultiLine"></asp:TextBox></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            &nbsp;</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <asp:Button ID="Button1" runat="server" Text="Bevestig" /></td>
                     </tr>
                 </table>
 
